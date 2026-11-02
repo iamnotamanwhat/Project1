@@ -254,3 +254,169 @@ a {
   font-size: 10px;
 }
 
+@media (min-width: 768px) {
+  .site-header {
+    flex-direction: row;
+    margin: 40px 80px 0;
+    padding: 24px;
+  }
+
+  .logo {
+    gap: 16px;
+  }
+
+  .logo-text {
+    font-size: 48px;
+  }
+
+  .logo-icon {
+    width: 60px;
+    height: 60px;
+  }
+
+  .nav-list {
+    gap: 16px;
+    font-size: 18px;
+  }
+
+  .container,
+  .detail-layout {
+    padding: 32px 80px;
+  }
+
+  .hero-grid {
+    grid-template-columns: 2fr 1fr;
+    gap: 40px;
+    margin-bottom: 40px;
+  }
+
+  .spotlight,
+  .sidebar,
+  .card {
+    padding: 32px;
+  }
+
+  .spotlight {
+    text-align: left;
+  }
+
+  .spotlight h1 {
+    font-size: 36px;
+  }
+
+  .lead {
+    font-size: 24px;
+    margin: 12px 0 16px;
+  }
+
+  .spotlight .btn {
+    font-size: 22px;
+  }
+
+  .sidebar {
+    font-size: 18px;
+  }
+
+  .label {
+    margin-bottom: 24px;
+  }
+
+  .sidebar h2 {
+    font-size: 24px;
+  }
+
+  .btn-side {
+    align-self: flex-end;
+    margin-top: 20px;
+    padding: 4px 32px;
+    font-size: 22px;
+  }
+
+  .cards-gallery {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 40px;
+  }
+
+  .card {
+    align-items: center;
+  }
+
+  .card img {
+    height: 150px;
+  }
+
+  .card h3 {
+    font-size: 28px;
+  }
+
+  .card p {
+    font-size: 18px;
+    align-self: flex-start;
+  }
+
+  .btn-card {
+    font-size: 22px;
+  }
+
+  .site-footer {
+    margin: 0 80px 40px;
+    padding: 24px 16px;
+    font-size: 15px;
+  }
+
+  .detail-hero,
+  .article-body,
+  .meta-sidebar {
+    padding: 24px 32px;
+  }
+
+  .detail-hero {
+    margin-bottom: 32px;
+  }
+
+  .detail-hero h1 {
+    font-size: 30px;
+  }
+
+  .lead-text {
+    font-size: 22px;
+  }
+
+  .content-grid {
+    grid-template-columns: 3fr 1fr;
+    gap: 40px;
+  }
+
+  .article-body {
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    font-size: 18px;
+  }
+
+  .article-img {
+    height: 100%;
+    min-height: 400px;
+  }
+
+  .article-body h2,
+  .meta-sidebar h2 {
+    font-size: 32px;
+    margin-bottom: 12px;
+  }
+
+  .article-body p {
+    margin-bottom: 40px;
+  }
+
+  .meta-sidebar {
+    font-size: 22px;
+  }
+
+  .meta-list {
+    margin-bottom: 8px;
+  }
+
+  .quick-links {
+    margin-top: 16px;
+  }
+}
